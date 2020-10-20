@@ -32,13 +32,4 @@ class FizzBuzzTest extends TestCase
 
         $this->assertEquals(2,$actual);
     }
-
-    /**
-     * @return FizzBuzz
-     */
-    public function getFizzBuzz(): FizzBuzz
-    {
-        $fizzBuzz = new FizzBuzz();
-        return $fizzBuzz;
-    }
 }
