@@ -32,4 +32,10 @@ class FizzBuzzTest extends TestCase
 
         $this->assertEquals(2,$actual);
     }
+
+    public function test_count_given3_shouldReturnFizz() {
+        $actual = $this->fizzBuzz->count(3);
+
+        $this->assertEquals("Fizz",$actual);
+    }
 }
